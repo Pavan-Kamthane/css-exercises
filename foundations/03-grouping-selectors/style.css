@@ -1,0 +1,12 @@
+.box{
+    border: 1px solid black;
+}
+.box1{
+    background: black;
+    color: #fff;
+}
+
+.box2{
+    background-color: yellow;
+    color: black;
+}
