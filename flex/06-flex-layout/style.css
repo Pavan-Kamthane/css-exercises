@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
-  height: 100vh;
+  height: 94.5vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -24,4 +28,76 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  height: 10%;
+}
+
+.header ul{
+  list-style: none;
+  display: flex;
+}
+
+.header ul li{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.header ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+}
+
+.content .buttons{
+  margin: 10vh;
+}
+
+.content .buttons button{
+  padding: 15px;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  /* height: 10%; */
+  background: #0000002d;
+  padding: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer ul li {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000000;
 }
